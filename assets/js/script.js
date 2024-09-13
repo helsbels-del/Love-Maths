@@ -36,6 +36,10 @@ function runGame(gameType){
     }
 }
 
+/**
+ * Checkes the answer against the first element
+ * in the returned calculateCorrectAnswer array
+ */
 function checkAnswer(){
 
     let userAnswer = parseInt(document.getElementById("answer-box").value);
